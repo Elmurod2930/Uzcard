@@ -1,0 +1,23 @@
+### Registration
+POST localhost:8081/api/v1/auth/registration
+Content-Type: application/json
+
+{
+  "name": "aaa",
+  "surname": "aaa",
+  "username": "shirinovelmurod@gmail.com",
+  "password": "aaa"
+}
+
+### login
+POST localhost:8081/api/v1
+Content-Type: application/json
+
+{
+  "password": "aaa",
+  "username": "shirinovelmurod@gmail.com"
+}
+
+### verification
+GET localhost:8081/api/v1/auth/email/verification
+Authorization: Bearer: eyJhbGciOiJIUzUxMiJ9.eyJpYXQiOjE2ODc2MzI1OTYsImVtYWlsIjoic2hpcmlub3ZlbG11cm9kQGdtYWlsLmNvbSIsImV4cCI6MTY4NzcxODk5NywiaXNzIjoiVXpjYXJkIHRlc3QgcG9ydGFsaSJ9.jROrkQapSV9F9dWmJlHE3VgZAgRgPwngwASi-veIpre7-_SxqPXjzwnc1maF-Z3ncUQqITFwyXHr1hVIayxHCw

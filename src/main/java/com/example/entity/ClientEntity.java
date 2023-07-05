@@ -19,8 +19,8 @@ public class ClientEntity {
     private String name;
     @Column(name = "surname")
     private String surname;
-    @Column(name = "middleName")
-    private String middle_name;
+    @Column(name = "middle_name")
+    private String middleName;
     @Column(name = "created_date")
     private LocalDateTime createdDate;
     @Column(name = "phone")
